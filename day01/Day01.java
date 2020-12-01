@@ -20,8 +20,6 @@ public class Day01 {
       int x = inputList.get(i);
       int y = 2020 - x;
       if (inputList.contains(y) && (x != y)) {
-		System.out.println(x);
-		System.out.println(y);
         return x * y;
       }
     }
@@ -41,9 +39,6 @@ public class Day01 {
 
         int z = 2020 - x - y;
         if (inputList.contains(z) && (z != x) && (z != y)) {
-		  System.out.println(x);
-		  System.out.println(y);
-		  System.out.println(z);
           return x * y * z;
         }
       }
